@@ -1,0 +1,21 @@
+Database:
+  Dsn: 
+    {
+      'username' : '',
+      'password' : '',
+      'host' : '',
+      'database' : ''
+    }
+
+
+Api_keys:
+  { 
+    'evotor_token' : '',
+    'evotor_token_type' : 'Bearer',
+    # Секретный ключ генерим с помощью команды -  openssl rand -hex 32
+    'put_data_key' : '',
+    'algoritm' : 'HS256', 
+    'data' : 'put_data',
+    'token' : ''
+
+  }
